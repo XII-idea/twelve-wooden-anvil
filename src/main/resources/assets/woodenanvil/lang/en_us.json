@@ -1,0 +1,13 @@
+{
+  "itemGroup.woodenanvil": "Example Mod Tab",
+  "block.woodenanvil.example_block": "Example Block",
+  "item.woodenanvil.example_item": "Example Item",
+
+  "woodenanvil.configuration.title": "Wooden Anvil Configs",
+  "woodenanvil.configuration.section.woodenanvil.common.toml": "Wooden Anvil Configs",
+  "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Wooden Anvil Configs",
+  "woodenanvil.configuration.items": "Item List",
+  "woodenanvil.configuration.logDirtBlock": "Log Dirt Block",
+  "woodenanvil.configuration.magicNumberIntroduction": "Magic Number Text",
+  "woodenanvil.configuration.magicNumber": "Magic Number"
+}
