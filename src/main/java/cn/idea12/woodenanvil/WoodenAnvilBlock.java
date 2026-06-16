@@ -45,7 +45,7 @@ public class WoodenAnvilBlock extends AnvilBlock {
 
     public static @Nullable BlockState damageWoodenAnvil(BlockState state) {
         Block block = state.getBlock();
-        for (Map.Entry<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> entry : WoodenAnvil.DAMAGE_MAP.entrySet()) {
+        for (Map.Entry<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> entry : WoodenAnvilRegistry.DAMAGE_MAP.entrySet()) {
             if (entry.getKey().get() == block) {
                 Block nextBlock = entry.getValue().get();
                 return nextBlock.defaultBlockState().setValue(FACING, state.getValue(FACING));
@@ -58,7 +58,7 @@ public class WoodenAnvilBlock extends AnvilBlock {
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
         if (itemAbility == ItemAbilities.AXE_STRIP) {
             if (context.getPlayer() != null && context.getPlayer().isSecondaryUseActive()) {
-                for (Map.Entry<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> entry : WoodenAnvil.STRIPPING_MAP.entrySet()) {
+                for (Map.Entry<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> entry : WoodenAnvilRegistry.STRIPPING_MAP.entrySet()) {
                     if (entry.getKey().get() == state.getBlock()) {
                         Block strippedBlock = entry.getValue().get();
                         return strippedBlock.defaultBlockState().setValue(FACING, state.getValue(FACING));
