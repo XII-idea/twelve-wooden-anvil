@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woodenanvil:block/stripped_jungle_log_anvil"
+    },
+    "facing=south": {
+      "model": "woodenanvil:block/stripped_jungle_log_anvil",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "woodenanvil:block/stripped_jungle_log_anvil",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "woodenanvil:block/stripped_jungle_log_anvil",
+      "y": 270
+    }
+  }
+}

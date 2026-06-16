@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:cherry_wood",
+    "P": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "woodenanvil:cherry_log_anvil",
+    "count": 1
+  }
+}

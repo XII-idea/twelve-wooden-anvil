@@ -1,0 +1,9 @@
+{
+  "parent": "woodenanvil:block/template_wooden_anvil",
+  "textures": {
+    "body": "minecraft:block/acacia_planks",
+    "top": "minecraft:block/stripped_acacia_log",
+    "top_side": "minecraft:block/stripped_acacia_log",
+    "particle": "minecraft:block/acacia_planks"
+  }
+}

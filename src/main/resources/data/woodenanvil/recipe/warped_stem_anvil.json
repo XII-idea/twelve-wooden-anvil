@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:warped_hyphae",
+    "P": "minecraft:warped_planks"
+  },
+  "result": {
+    "id": "woodenanvil:warped_stem_anvil",
+    "count": 1
+  }
+}

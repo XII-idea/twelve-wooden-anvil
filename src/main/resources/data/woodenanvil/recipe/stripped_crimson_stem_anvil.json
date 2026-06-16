@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:stripped_crimson_hyphae",
+    "P": "minecraft:crimson_planks"
+  },
+  "result": {
+    "id": "woodenanvil:stripped_crimson_stem_anvil",
+    "count": 1
+  }
+}

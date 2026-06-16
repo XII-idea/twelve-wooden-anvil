@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woodenanvil:block/birch_log_chipped_anvil"
+    },
+    "facing=south": {
+      "model": "woodenanvil:block/birch_log_chipped_anvil",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "woodenanvil:block/birch_log_chipped_anvil",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "woodenanvil:block/birch_log_chipped_anvil",
+      "y": 270
+    }
+  }
+}

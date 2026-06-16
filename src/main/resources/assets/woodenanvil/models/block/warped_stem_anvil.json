@@ -1,0 +1,9 @@
+{
+  "parent": "woodenanvil:block/template_wooden_anvil",
+  "textures": {
+    "body": "minecraft:block/warped_planks",
+    "top": "minecraft:block/warped_stem",
+    "top_side": "minecraft:block/warped_stem",
+    "particle": "minecraft:block/warped_planks"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "cn.idea12.woodenanvil.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AnvilBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

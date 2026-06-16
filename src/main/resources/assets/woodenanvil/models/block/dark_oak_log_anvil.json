@@ -1,0 +1,9 @@
+{
+  "parent": "woodenanvil:block/template_wooden_anvil",
+  "textures": {
+    "body": "minecraft:block/dark_oak_planks",
+    "top": "minecraft:block/dark_oak_log",
+    "top_side": "minecraft:block/dark_oak_log",
+    "particle": "minecraft:block/dark_oak_planks"
+  }
+}

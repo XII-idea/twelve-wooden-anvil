@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:stripped_dark_oak_wood",
+    "P": "minecraft:dark_oak_planks"
+  },
+  "result": {
+    "id": "woodenanvil:stripped_dark_oak_log_anvil",
+    "count": 1
+  }
+}

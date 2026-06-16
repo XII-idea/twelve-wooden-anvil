@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:jungle_wood",
+    "P": "minecraft:jungle_planks"
+  },
+  "result": {
+    "id": "woodenanvil:jungle_log_anvil",
+    "count": 1
+  }
+}

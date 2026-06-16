@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:mangrove_wood",
+    "P": "minecraft:mangrove_planks"
+  },
+  "result": {
+    "id": "woodenanvil:mangrove_log_anvil",
+    "count": 1
+  }
+}

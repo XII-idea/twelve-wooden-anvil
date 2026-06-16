@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:acacia_wood",
+    "P": "minecraft:acacia_planks"
+  },
+  "result": {
+    "id": "woodenanvil:acacia_log_anvil",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " P ",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:stripped_spruce_wood",
+    "P": "minecraft:spruce_planks"
+  },
+  "result": {
+    "id": "woodenanvil:stripped_spruce_log_anvil",
+    "count": 1
+  }
+}

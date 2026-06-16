@@ -1,0 +1,9 @@
+{
+  "parent": "woodenanvil:block/template_wooden_anvil",
+  "textures": {
+    "body": "minecraft:block/crimson_planks",
+    "top": "minecraft:block/crimson_stem",
+    "top_side": "minecraft:block/crimson_stem",
+    "particle": "minecraft:block/crimson_planks"
+  }
+}

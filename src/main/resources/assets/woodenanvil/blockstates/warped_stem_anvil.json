@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woodenanvil:block/warped_stem_anvil"
+    },
+    "facing=south": {
+      "model": "woodenanvil:block/warped_stem_anvil",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "woodenanvil:block/warped_stem_anvil",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "woodenanvil:block/warped_stem_anvil",
+      "y": 270
+    }
+  }
+}
