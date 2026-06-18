@@ -33,14 +33,14 @@ displayName="${mod_name}" #mandatory
 logoFile="assets/woodenanvil/icon.png" #optional
 
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="maidong0809" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-authors="steverjava"
+authors="12idea"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-木工砧提供了多种木材制成的木砧。
+拾贰木砧提供了多种木材制成的木砧。
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
