@@ -143,8 +143,8 @@
   "item.woodenanvil.warped_stem_anvil": "Warped Stem Anvil",
   "item.woodenanvil.warped_stem_chipped_anvil": "Chipped Warped Stem Anvil",
   "item.woodenanvil.warped_stem_damaged_anvil": "Damaged Warped Stem Anvil",
-  "itemGroup.woodenanvil": "Wooden Anvils",
-  "woodenanvil.configuration.section.woodenanvil.common.toml": "Wooden Anvil Configs",
-  "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Wooden Anvil Configs",
-  "woodenanvil.configuration.title": "Wooden Anvil Configs"
+  "itemGroup.woodenanvil": "Twelve Wooden Anvils",
+  "woodenanvil.configuration.section.woodenanvil.common.toml": "Twelve Wooden Anvil Configs",
+  "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Twelve Wooden Anvil Configs",
+  "woodenanvil.configuration.title": "Twelve Wooden Anvil Configs"
 }

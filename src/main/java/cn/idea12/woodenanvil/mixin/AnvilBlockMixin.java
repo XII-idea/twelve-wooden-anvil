@@ -1,3 +1,5 @@
+// This file is licensed under the MIT License.
+
 package cn.idea12.woodenanvil.mixin;
 
 import cn.idea12.woodenanvil.WoodenAnvilBlock;

@@ -143,8 +143,8 @@
   "item.woodenanvil.warped_stem_anvil": "詭異菌砧",
   "item.woodenanvil.warped_stem_chipped_anvil": "開裂的詭異菌砧",
   "item.woodenanvil.warped_stem_damaged_anvil": "損壞的詭異菌砧",
-  "itemGroup.woodenanvil": "木砧",
-  "woodenanvil.configuration.section.woodenanvil.common.toml": "木砧設定",
-  "woodenanvil.configuration.section.woodenanvil.common.toml.title": "木砧設定",
-  "woodenanvil.configuration.title": "木砧設定"
+  "itemGroup.woodenanvil": "拾貳木砧",
+  "woodenanvil.configuration.section.woodenanvil.common.toml": "拾貳木砧設定",
+  "woodenanvil.configuration.section.woodenanvil.common.toml.title": "拾貳木砧設定",
+  "woodenanvil.configuration.title": "拾貳木砧設定"
 }

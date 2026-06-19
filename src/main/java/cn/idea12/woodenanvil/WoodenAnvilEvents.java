@@ -11,7 +11,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 @EventBusSubscriber(modid = WoodenAnvil.MODID)
 public class WoodenAnvilEvents {
-    private static final int WOODEN_ANVIL_BURN_TIME = 3200;
+    private static final int WOODEN_ANVIL_BURN_TIME = 3200; //煤炭块时间
 
     @SubscribeEvent
     public static void onFurnaceFuelBurnTime(FurnaceFuelBurnTimeEvent event) {

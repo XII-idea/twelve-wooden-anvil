@@ -28,22 +28,20 @@ public class WoodenAnvilRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, WoodenAnvil.MODID);
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WoodenAnvil.MODID);
 
-    public static final List<DeferredBlock<AnvilBlock>> WOODEN_ANVIL_BLOCKS = new ArrayList<>();
-    public static final Map<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> STRIPPING_MAP = new IdentityHashMap<>();
-    public static final Map<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> DAMAGE_MAP = new IdentityHashMap<>();
+    public static final List<DeferredBlock<AnvilBlock>> WOODEN_ANVIL_BLOCKS = new ArrayList<>(); //存砧对象
+    public static final Map<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> STRIPPING_MAP = new IdentityHashMap<>();  //去皮映射
+    public static final Map<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> DAMAGE_MAP = new IdentityHashMap<>();  //损坏映射
 
     public static DeferredBlock<AnvilBlock> OAK_ANVIL;
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> WOODEN_ANVIL_TAB;
 
     static {
         registerAllAnvils();
-        // 创建模式标签页，需要 OAK_ANVIL 已初始化
         WOODEN_ANVIL_TAB = TABS.register("wooden_anvils", () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.woodenanvil"))
-                .withTabsBefore(CreativeModeTabs.COMBAT)
                 .icon(() -> new ItemStack(OAK_ANVIL.get().asItem()))
                 .displayItems((parameters, output) -> {
-                    for (DeferredBlock<AnvilBlock> deferredBlock : WOODEN_ANVIL_BLOCKS) {
+                    for (DeferredBlock<AnvilBlock> deferredBlock : WOODEN_ANVIL_BLOCKS) { //添加砧对象
                         Block block = deferredBlock.get();
                         if (block != null) {
                             output.accept(block.asItem());
@@ -69,7 +67,7 @@ public class WoodenAnvilRegistry {
         String[] stateSuffixes = {"_anvil", "_chipped_anvil", "_damaged_anvil"};
 
         @SuppressWarnings("unchecked")
-        DeferredBlock<AnvilBlock>[][][] blocksByState = new DeferredBlock[3][2][woodIds.length];
+        DeferredBlock<AnvilBlock>[][][] blocksByState = new DeferredBlock[3][2][woodIds.length]; //blocksByState[损伤状态][是否去皮][木头索引]
 
         for (int si = 0; si < stateSuffixes.length; si++) {
             String suffix = stateSuffixes[si];
@@ -106,11 +104,10 @@ public class WoodenAnvilRegistry {
     }
 
     private static DeferredBlock<AnvilBlock> registerAnvil(String name) {
+
         Identifier blockId = Identifier.fromNamespaceAndPath(WoodenAnvil.MODID, name);
         ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, blockId);
         MutableComponent displayName = Component.translatable("block." + WoodenAnvil.MODID + "." + name);
-
-        // ① 注册方块
         DeferredBlock<AnvilBlock> block = BLOCKS.register(name, () -> new WoodenAnvilBlock(
                 BlockBehaviour.Properties.of()
                         .mapColor(MapColor.WOOD)
@@ -120,11 +117,9 @@ public class WoodenAnvilRegistry {
                 displayName
         ));
 
-        // ② 同时注册对应的物品（常规写法！）
         ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, blockId);
         ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(itemKey)));
 
-        // ③ 存入方块列表（供创造栏使用）
         WOODEN_ANVIL_BLOCKS.add(block);
         return block;
     }

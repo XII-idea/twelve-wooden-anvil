@@ -25,26 +25,34 @@ public class WoodenAnvilBlock extends AnvilBlock {
 
     public WoodenAnvilBlock(Properties properties, MutableComponent displayName) {
         super(properties);
-        this.displayName = displayName;
+        this.displayName = displayName;  //拿到名字
     }
 
     @Override
     public MutableComponent getName() {
         return this.displayName;
-    }
+    }  //传名字
 
+    // 换掉原来的名字
     @Override
     protected MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
         return new SimpleMenuProvider(
                 (containerId, inventory, player) -> new AnvilMenu(containerId, inventory, ContainerLevelAccess.create(level, pos)),
-                this.displayName
+                this.displayName  //用名字
         );
     }
 
+    // 给Mixin用的木砧判断
     public static boolean isWoodenAnvil(BlockState state) {
         return state.getBlock() instanceof WoodenAnvilBlock;
     }
 
+    // 木砧损坏逻辑
+    /*
+    遍历DAMAGE_MAP,找出当前砧状态的下一级
+    返回新状态保留朝向
+    状态无下一级则返回null
+     */
     public static @Nullable BlockState damageWoodenAnvil(BlockState state) {
         Block block = state.getBlock();
         for (Map.Entry<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> entry : WoodenAnvilRegistry.DAMAGE_MAP.entrySet()) {
@@ -56,6 +64,12 @@ public class WoodenAnvilBlock extends AnvilBlock {
         return null;
     }
 
+    // 木砧去皮逻辑
+    /*
+    在玩家潜行+右键时,遍历STRIPPING_MAP,找出当前砧状态的下一级
+    返回新状态保留朝向
+    无下一级则返回null
+     */
     @Override
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
         if (itemAbility == ItemAbilities.AXE_STRIP) {
