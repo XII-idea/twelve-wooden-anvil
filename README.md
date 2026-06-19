@@ -1,25 +1,43 @@
+# 拾贰木砧
 
-Installation information
-=======
+为 Minecraft 添加由各种木材制成的木质砧。
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## 功能
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+- **72 种木质砧**：12 种木头 × 带皮/去皮 × 完好/开裂/损坏三种状态
+- **完整的铁砧 GUI**：与原版铁砧功能一致，可在木质砧上进行修复与附魔
+- **损坏降级**：与原版铁砧一样，使用时有概率损毁（完好 → 开裂 → 损坏 → 销毁）
+- **斧子去皮**：蹲下 + 斧子右键，将带皮木砧转化为对应的去皮变种
+- **材质包兼容**：木材纹理引用原版资源，支持跟随材质包变化；开裂/损坏覆层为模组自带纹理
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### 支持的木材
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+支持所有原版木材(MC 26.1.2)，每种木材均有完好、开裂、损坏三种状态，共计 72 个木砧。
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## 构建
+
+```bash
+./gradlew build
+```
+
+构建产物位于 `build/libs/`。
+<!-- 
+## 运行
+
+```bash
+# 客户端
+./gradlew runClient
+
+# 服务端
+./gradlew runServer
+```
+ -->
+## 环境要求
+
+- Java 25
+- Minecraft 26.1.2
+- NeoForge 26.1.2.76+
+
+## 许可证
+
+[MIT](./LICENSE)
