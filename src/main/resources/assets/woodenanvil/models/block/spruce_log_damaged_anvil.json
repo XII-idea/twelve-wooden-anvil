@@ -1,9 +1,10 @@
 {
-  "parent": "woodenanvil:block/template_wooden_anvil",
+  "parent": "woodenanvil:block/template_wooden_anvil_damaged",
   "textures": {
     "body": "minecraft:block/spruce_planks",
-    "top": "woodenanvil:block/spruce_log_damaged_top",
+    "top": "minecraft:block/spruce_log",
     "top_side": "minecraft:block/spruce_log",
-    "particle": "minecraft:block/spruce_planks"
+    "particle": "minecraft:block/spruce_planks",
+    "crack": "woodenanvil:block/crack_damaged"
   }
 }
