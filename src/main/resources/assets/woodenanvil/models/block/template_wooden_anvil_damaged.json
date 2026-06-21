@@ -312,5 +312,5 @@
             }
         }
     ],
-    "render_type": "minecraft:cutout"
+    "render_type": "minecraft:translucent"
 }
