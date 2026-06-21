@@ -1,10 +1,9 @@
 {
-  "parent": "woodenanvil:block/template_wooden_anvil_damaged",
+  "parent": "woodenanvil:block/template_wooden_anvil",
   "textures": {
     "body": "minecraft:block/pale_oak_planks",
-    "top": "minecraft:block/stripped_pale_oak_log",
+    "top": "woodenanvil:block/stripped_pale_oak_log_damaged_top",
     "top_side": "minecraft:block/stripped_pale_oak_log",
-    "particle": "minecraft:block/pale_oak_planks",
-    "crack": "woodenanvil:block/crack_damaged"
+    "particle": "minecraft:block/pale_oak_planks"
   }
 }
