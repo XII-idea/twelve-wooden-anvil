@@ -50,6 +50,9 @@ neoForge {
         client {
             client()
 
+            // Separate run directory from the server to avoid overlapping logs.
+            gameDirectory = project.file('run/Client')
+
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
@@ -58,6 +61,9 @@ neoForge {
             server()
             programArgument '--nogui'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
+            // Separate run directory from the client to avoid overlapping logs.
+            gameDirectory = project.file('run/Server')
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -143,6 +149,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             minecraft_version      : minecraft_version,
             minecraft_version_range: minecraft_version_range,
             neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
             mod_id                 : mod_id,
             mod_name               : mod_name,
             mod_license            : mod_license,
