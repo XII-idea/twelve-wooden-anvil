@@ -1,4 +1,4 @@
-{
+﻿{
   "block.woodenanvil.acacia_log_anvil": "金合欢木砧",
   "block.woodenanvil.acacia_log_chipped_anvil": "开裂的金合欢木砧",
   "block.woodenanvil.acacia_log_damaged_anvil": "损坏的金合欢木砧",
@@ -146,5 +146,7 @@
   "itemGroup.woodenanvil": "拾贰木砧",
   "woodenanvil.configuration.section.woodenanvil.common.toml": "拾贰木砧配置",
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "拾贰木砧配置",
-  "woodenanvil.configuration.title": "拾贰木砧配置"
+  "woodenanvil.configuration.title": "拾贰木砧配置",
+  "death.attack.wooden_anvil": "%1$s被%2$s压扁了",
+  "death.attack.wooden_anvil.player": "%1$s在与%2$s战斗时被%3$s压扁了"
 }

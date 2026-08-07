@@ -1,4 +1,4 @@
-{
+﻿{
   "block.woodenanvil.acacia_log_anvil": "アカシアの原木金床",
   "block.woodenanvil.acacia_log_chipped_anvil": "ヒビの入ったアカシアの原木金床",
   "block.woodenanvil.acacia_log_damaged_anvil": "破損したアカシアの原木金床",
@@ -146,5 +146,7 @@
   "itemGroup.woodenanvil": "木製金床",
   "woodenanvil.configuration.section.woodenanvil.common.toml": "木製金床設定",
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "木製金床設定",
-  "woodenanvil.configuration.title": "木製金床設定"
+  "woodenanvil.configuration.title": "木製金床設定",
+  "death.attack.wooden_anvil": "%1$sは%2$sに押しつぶされた",
+  "death.attack.wooden_anvil.player": "%1$sは%2$sと戦いながら%3$sに押しつぶされた"
 }

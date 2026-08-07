@@ -1,4 +1,4 @@
-{
+﻿{
   "block.woodenanvil.acacia_log_anvil": "Acacia Log Anvil",
   "block.woodenanvil.acacia_log_chipped_anvil": "Chipped Acacia Log Anvil",
   "block.woodenanvil.acacia_log_damaged_anvil": "Damaged Acacia Log Anvil",
@@ -146,5 +146,7 @@
   "itemGroup.woodenanvil": "Twelve Wooden Anvils",
   "woodenanvil.configuration.section.woodenanvil.common.toml": "Twelve Wooden Anvil Configs",
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Twelve Wooden Anvil Configs",
-  "woodenanvil.configuration.title": "Twelve Wooden Anvil Configs"
+  "woodenanvil.configuration.title": "Twelve Wooden Anvil Configs",
+  "death.attack.wooden_anvil": "%1$s was squashed by a falling %2$s",
+  "death.attack.wooden_anvil.player": "%1$s was squashed by a falling %3$s whilst fighting %2$s"
 }

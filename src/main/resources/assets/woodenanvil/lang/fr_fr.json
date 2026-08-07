@@ -1,4 +1,4 @@
-{
+﻿{
   "block.woodenanvil.acacia_log_anvil": "Enclume en bûche d'acacia",
   "block.woodenanvil.acacia_log_chipped_anvil": "Enclume fendillée en bûche d'acacia",
   "block.woodenanvil.acacia_log_damaged_anvil": "Enclume endommagée en bûche d'acacia",
@@ -146,5 +146,7 @@
   "itemGroup.woodenanvil": " en bois d'",
   "woodenanvil.configuration.section.woodenanvil.common.toml": "Config des en bois",
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Config des en bois",
-  "woodenanvil.configuration.title": "Config des en bois"
+  "woodenanvil.configuration.title": "Config des en bois",
+  "death.attack.wooden_anvil": "%1$s a été écrasé(e) par un(e) %2$s qui lui est tombé(e) dessus",
+  "death.attack.wooden_anvil.player": "%1$s a été écrasé(e) par un(e) %3$s en combattant %2$s"
 }

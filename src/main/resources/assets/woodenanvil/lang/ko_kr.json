@@ -1,4 +1,4 @@
-{
+﻿{
   "block.woodenanvil.acacia_log_anvil": "아카시아 원목 모루",
   "block.woodenanvil.acacia_log_chipped_anvil": "금이 간 아카시아 원목 모루",
   "block.woodenanvil.acacia_log_damaged_anvil": "손상된 아카시아 원목 모루",
@@ -146,5 +146,7 @@
   "itemGroup.woodenanvil": "나무 모루",
   "woodenanvil.configuration.section.woodenanvil.common.toml": "나무 모루 설정",
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "나무 모루 설정",
-  "woodenanvil.configuration.title": "나무 모루 설정"
+  "woodenanvil.configuration.title": "나무 모루 설정",
+  "death.attack.wooden_anvil": "%1$s이(가) %2$s에 짓눌려 사망했습니다",
+  "death.attack.wooden_anvil.player": "%1$s이(가) %2$s와(과) 싸우는 중 %3$s에 짓눌려 사망했습니다"
 }
