@@ -21,9 +21,10 @@
 $ErrorActionPreference = 'Stop'
 
 # 根据操作系统选择 Java 可执行文件的名称：
-# 在 Windows 上为 java.exe，在 Linux / macOS 上为 java
-$IsWindows = ($env:OS -eq 'Windows_NT')
-$javaExeName = if ($IsWindows) { 'java.exe' } else { 'java' }
+# 在 Windows 上为 java.exe，在 Linux / macOS 上为 java。
+# 注意：PowerShell 6+ 自带只读的 $IsWindows 自动变量，不可重新赋值，因此这里用自定义变量名
+$isWindowsOS = ($env:OS -eq 'Windows_NT')
+$javaExeName = if ($isWindowsOS) { 'java.exe' } else { 'java' }
 
 # 项目根目录，即本脚本所在目录
 $APP_HOME = $PSScriptRoot
