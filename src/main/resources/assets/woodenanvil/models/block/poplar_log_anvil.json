@@ -1,0 +1,9 @@
+{
+  "parent": "woodenanvil:block/template_wooden_anvil",
+  "textures": {
+    "body": "minecraft:block/poplar_planks",
+    "top": "minecraft:block/poplar_log",
+    "top_side": "minecraft:block/poplar_log",
+    "particle": "minecraft:block/poplar_planks"
+  }
+}

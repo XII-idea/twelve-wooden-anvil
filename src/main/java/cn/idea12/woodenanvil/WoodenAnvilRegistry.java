@@ -2,17 +2,21 @@
 
 package cn.idea12.woodenanvil;
 
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.component.CookingFuel;
 import net.minecraft.world.level.block.AnvilBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.storage.loot.providers.number.floats.ResolvableFloat;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ResolvableInt;
 
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -24,6 +28,9 @@ import java.util.List;
 import java.util.Map;
 
 public class WoodenAnvilRegistry {
+    /** 木砧作为燃料时的燃烧时间（tick），与煤炭块一致。 */
+    private static final int WOODEN_ANVIL_BURN_TIME = 3200;
+
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(WoodenAnvil.MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, WoodenAnvil.MODID);
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WoodenAnvil.MODID);
@@ -53,7 +60,7 @@ public class WoodenAnvilRegistry {
     private static void registerAllAnvils() {
         String[] woodIds = {
                 "oak_log", "spruce_log", "birch_log", "jungle_log", "acacia_log",
-                "dark_oak_log", "mangrove_log", "cherry_log", "pale_oak_log",
+                "dark_oak_log", "mangrove_log", "cherry_log", "pale_oak_log", "poplar_log",
                 "crimson_stem", "warped_stem", "bamboo"
         };
 
@@ -61,6 +68,7 @@ public class WoodenAnvilRegistry {
                 "stripped_oak_log", "stripped_spruce_log", "stripped_birch_log",
                 "stripped_jungle_log", "stripped_acacia_log", "stripped_dark_oak_log",
                 "stripped_mangrove_log", "stripped_cherry_log", "stripped_pale_oak_log",
+                "stripped_poplar_log",
                 "stripped_crimson_stem", "stripped_warped_stem", "stripped_bamboo"
         };
 
@@ -118,7 +126,12 @@ public class WoodenAnvilRegistry {
         ));
 
         ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, blockId);
-        ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(itemKey)));
+        ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()
+                .setId(itemKey)
+                // 26.3 起燃料燃烧时间由 CookingFuel 数据组件声明（取代已移除的 FurnaceFuelBurnTimeEvent）
+                .component(DataComponents.COOKING_FUEL, new CookingFuel(
+                        new ResolvableInt.Constant(WOODEN_ANVIL_BURN_TIME),
+                        new ResolvableFloat.Constant(1.0F)))));
 
         WOODEN_ANVIL_BLOCKS.add(block);
         return block;

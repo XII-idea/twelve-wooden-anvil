@@ -148,5 +148,17 @@
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "拾贰木砧配置",
   "woodenanvil.configuration.title": "拾贰木砧配置",
   "death.attack.wooden_anvil": "%1$s被%2$s压扁了",
-  "death.attack.wooden_anvil.player": "%1$s在与%2$s战斗时被%3$s压扁了"
+  "death.attack.wooden_anvil.player": "%1$s在与%2$s战斗时被%3$s压扁了",
+  "block.woodenanvil.poplar_log_anvil": "杨木砧",
+  "block.woodenanvil.poplar_log_chipped_anvil": "开裂的杨木砧",
+  "block.woodenanvil.poplar_log_damaged_anvil": "损坏的杨木砧",
+  "block.woodenanvil.stripped_poplar_log_anvil": "去皮杨木砧",
+  "block.woodenanvil.stripped_poplar_log_chipped_anvil": "开裂的去皮杨木砧",
+  "block.woodenanvil.stripped_poplar_log_damaged_anvil": "损坏的去皮杨木砧",
+  "item.woodenanvil.poplar_log_anvil": "杨木砧",
+  "item.woodenanvil.poplar_log_chipped_anvil": "开裂的杨木砧",
+  "item.woodenanvil.poplar_log_damaged_anvil": "损坏的杨木砧",
+  "item.woodenanvil.stripped_poplar_log_anvil": "去皮杨木砧",
+  "item.woodenanvil.stripped_poplar_log_chipped_anvil": "开裂的去皮杨木砧",
+  "item.woodenanvil.stripped_poplar_log_damaged_anvil": "损坏的去皮杨木砧"
 }

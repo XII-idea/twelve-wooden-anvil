@@ -1,0 +1,940 @@
+{
+  "values": {
+    "woodenanvil:oak_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:oak_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_oak_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:oak_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:oak_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_oak_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:oak_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:oak_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_oak_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:spruce_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:spruce_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_spruce_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:spruce_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:spruce_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_spruce_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:spruce_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:spruce_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_spruce_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:birch_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:birch_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_birch_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:birch_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:birch_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_birch_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:birch_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:birch_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_birch_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:jungle_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:jungle_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_jungle_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:jungle_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:jungle_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_jungle_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:jungle_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:jungle_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_jungle_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:acacia_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:acacia_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_acacia_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:acacia_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:acacia_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_acacia_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:acacia_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:acacia_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_acacia_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:dark_oak_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:dark_oak_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_dark_oak_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:dark_oak_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:dark_oak_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_dark_oak_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:dark_oak_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:dark_oak_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_dark_oak_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:mangrove_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:mangrove_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_mangrove_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:mangrove_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:mangrove_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_mangrove_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:mangrove_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:mangrove_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_mangrove_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:cherry_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:cherry_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_cherry_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:cherry_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:cherry_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_cherry_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:cherry_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:cherry_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_cherry_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:pale_oak_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:pale_oak_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_pale_oak_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:pale_oak_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:pale_oak_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_pale_oak_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:pale_oak_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:pale_oak_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_pale_oak_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:poplar_log_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:poplar_log_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_poplar_log_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:poplar_log_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:poplar_log_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_poplar_log_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:poplar_log_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:poplar_log_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_poplar_log_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:crimson_stem_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:crimson_stem_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_crimson_stem_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:crimson_stem_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:crimson_stem_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_crimson_stem_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:crimson_stem_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:crimson_stem_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_crimson_stem_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:warped_stem_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:warped_stem_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_warped_stem_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:warped_stem_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:warped_stem_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_warped_stem_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:warped_stem_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:warped_stem_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_warped_stem_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:bamboo_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:bamboo_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_bamboo_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:bamboo_chipped_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:bamboo_chipped_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_bamboo_chipped_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    },
+    "woodenanvil:bamboo_damaged_anvil": {
+      "transformer": "minecraft:axe",
+      "transform_data": {
+        "block_state_provider": {
+          "type": "minecraft:rule_based",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "woodenanvil:bamboo_damaged_anvil"
+              },
+              "then": {
+                "type": "minecraft:copy_properties",
+                "source": {
+                  "type": "minecraft:simple",
+                  "state": "woodenanvil:stripped_bamboo_damaged_anvil"
+                }
+              }
+            }
+          ]
+        },
+        "sound": "minecraft:item.axe.strip"
+      }
+    }
+  }
+}

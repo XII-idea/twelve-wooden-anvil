@@ -148,5 +148,17 @@
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Config des en bois",
   "woodenanvil.configuration.title": "Config des en bois",
   "death.attack.wooden_anvil": "%1$s a été écrasé(e) par un(e) %2$s qui lui est tombé(e) dessus",
-  "death.attack.wooden_anvil.player": "%1$s a été écrasé(e) par un(e) %3$s en combattant %2$s"
+  "death.attack.wooden_anvil.player": "%1$s a été écrasé(e) par un(e) %3$s en combattant %2$s",
+  "block.woodenanvil.poplar_log_anvil": "Enclume en bûche de peuplier",
+  "block.woodenanvil.poplar_log_chipped_anvil": "Enclume fendillée en bûche de peuplier",
+  "block.woodenanvil.poplar_log_damaged_anvil": "Enclume endommagée en bûche de peuplier",
+  "block.woodenanvil.stripped_poplar_log_anvil": "Enclume en bûche de peuplier écorcée",
+  "block.woodenanvil.stripped_poplar_log_chipped_anvil": "Enclume fendillée en bûche de peuplier écorcée",
+  "block.woodenanvil.stripped_poplar_log_damaged_anvil": "Enclume endommagée en bûche de peuplier écorcée",
+  "item.woodenanvil.poplar_log_anvil": "Enclume en bûche de peuplier",
+  "item.woodenanvil.poplar_log_chipped_anvil": "Enclume fendillée en bûche de peuplier",
+  "item.woodenanvil.poplar_log_damaged_anvil": "Enclume endommagée en bûche de peuplier",
+  "item.woodenanvil.stripped_poplar_log_anvil": "Enclume en bûche de peuplier écorcée",
+  "item.woodenanvil.stripped_poplar_log_chipped_anvil": "Enclume fendillée en bûche de peuplier écorcée",
+  "item.woodenanvil.stripped_poplar_log_damaged_anvil": "Enclume endommagée en bûche de peuplier écorcée"
 }

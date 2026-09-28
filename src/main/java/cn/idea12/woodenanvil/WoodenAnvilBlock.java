@@ -8,13 +8,10 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.inventory.AnvilMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.AnvilBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
-import net.neoforged.neoforge.common.ItemAbility;
-import net.neoforged.neoforge.common.ItemAbilities;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import org.jspecify.annotations.Nullable;
 
@@ -64,24 +61,7 @@ public class WoodenAnvilBlock extends AnvilBlock {
         return null;
     }
 
-    // 木砧去皮逻辑
-    /*
-    在玩家潜行+右键时,遍历STRIPPING_MAP,找出当前砧状态的下一级
-    返回新状态保留朝向
-    无下一级则返回null
-     */
-    @Override
-    public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
-        if (itemAbility == ItemAbilities.AXE_STRIP) {
-            if (context.getPlayer() != null && context.getPlayer().isSecondaryUseActive()) {
-                for (Map.Entry<DeferredBlock<AnvilBlock>, DeferredBlock<AnvilBlock>> entry : WoodenAnvilRegistry.STRIPPING_MAP.entrySet()) {
-                    if (entry.getKey().get() == state.getBlock()) {
-                        Block strippedBlock = entry.getValue().get();
-                        return strippedBlock.defaultBlockState().setValue(FACING, state.getValue(FACING));
-                    }
-                }
-            }
-        }
-        return null;
-    }
+    // 木砧去皮逻辑（26.3 起改由数据驱动的 BlockTransformer 处理，
+    // 见 src/main/resources/data/woodenanvil/data_maps/block/transformables.json）
+    // 映射关系仍在 WoodenAnvilRegistry.STRIPPING_MAP 中维护，用于生成该数据文件。
 }

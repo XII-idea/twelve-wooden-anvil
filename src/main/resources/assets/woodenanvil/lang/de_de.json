@@ -148,5 +148,17 @@
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "Holzamboss-Konfiguration",
   "woodenanvil.configuration.title": "Holzamboss-Konfiguration",
   "death.attack.wooden_anvil": "%1$s wurde von einem fallenden %2$s zerquetscht",
-  "death.attack.wooden_anvil.player": "%1$s wurde beim Kampf gegen %2$s von einem fallenden %3$s zerquetscht"
+  "death.attack.wooden_anvil.player": "%1$s wurde beim Kampf gegen %2$s von einem fallenden %3$s zerquetscht",
+  "block.woodenanvil.poplar_log_anvil": "Pappelstamm-Amboss",
+  "block.woodenanvil.poplar_log_chipped_anvil": "Leicht beschädigter Pappelstamm-Amboss",
+  "block.woodenanvil.poplar_log_damaged_anvil": "Stark beschädigter Pappelstamm-Amboss",
+  "block.woodenanvil.stripped_poplar_log_anvil": "Entrindeter Pappelstamm-Amboss",
+  "block.woodenanvil.stripped_poplar_log_chipped_anvil": "Leicht beschädigter Entrindeter Pappelstamm-Amboss",
+  "block.woodenanvil.stripped_poplar_log_damaged_anvil": "Stark beschädigter Entrindeter Pappelstamm-Amboss",
+  "item.woodenanvil.poplar_log_anvil": "Pappelstamm-Amboss",
+  "item.woodenanvil.poplar_log_chipped_anvil": "Leicht beschädigter Pappelstamm-Amboss",
+  "item.woodenanvil.poplar_log_damaged_anvil": "Stark beschädigter Pappelstamm-Amboss",
+  "item.woodenanvil.stripped_poplar_log_anvil": "Entrindeter Pappelstamm-Amboss",
+  "item.woodenanvil.stripped_poplar_log_chipped_anvil": "Leicht beschädigter Entrindeter Pappelstamm-Amboss",
+  "item.woodenanvil.stripped_poplar_log_damaged_anvil": "Stark beschädigter Entrindeter Pappelstamm-Amboss"
 }

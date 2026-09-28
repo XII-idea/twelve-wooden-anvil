@@ -148,5 +148,17 @@
   "woodenanvil.configuration.section.woodenanvil.common.toml.title": "나무 모루 설정",
   "woodenanvil.configuration.title": "나무 모루 설정",
   "death.attack.wooden_anvil": "%1$s이(가) %2$s에 짓눌려 사망했습니다",
-  "death.attack.wooden_anvil.player": "%1$s이(가) %2$s와(과) 싸우는 중 %3$s에 짓눌려 사망했습니다"
+  "death.attack.wooden_anvil.player": "%1$s이(가) %2$s와(과) 싸우는 중 %3$s에 짓눌려 사망했습니다",
+  "block.woodenanvil.poplar_log_anvil": "포플러 원목 모루",
+  "block.woodenanvil.poplar_log_chipped_anvil": "금이 간 포플러 원목 모루",
+  "block.woodenanvil.poplar_log_damaged_anvil": "손상된 포플러 원목 모루",
+  "block.woodenanvil.stripped_poplar_log_anvil": "껍질 벗긴 포플러 원목 모루",
+  "block.woodenanvil.stripped_poplar_log_chipped_anvil": "금이 간 껍질 벗긴 포플러 원목 모루",
+  "block.woodenanvil.stripped_poplar_log_damaged_anvil": "손상된 껍질 벗긴 포플러 원목 모루",
+  "item.woodenanvil.poplar_log_anvil": "포플러 원목 모루",
+  "item.woodenanvil.poplar_log_chipped_anvil": "금이 간 포플러 원목 모루",
+  "item.woodenanvil.poplar_log_damaged_anvil": "손상된 포플러 원목 모루",
+  "item.woodenanvil.stripped_poplar_log_anvil": "껍질 벗긴 포플러 원목 모루",
+  "item.woodenanvil.stripped_poplar_log_chipped_anvil": "금이 간 껍질 벗긴 포플러 원목 모루",
+  "item.woodenanvil.stripped_poplar_log_damaged_anvil": "손상된 껍질 벗긴 포플러 원목 모루"
 }
