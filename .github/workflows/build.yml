@@ -1,6 +1,12 @@
 name: Build
 
-on: [push, pull_request]
+# 所有分支（含各版本分支）的推送都触发构建；也可在 Actions 页面手动触发。
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
